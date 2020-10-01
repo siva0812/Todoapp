@@ -40,18 +40,6 @@
   {% block content %}
   <div class="row">
     <div class="col-md-6" style="margin: 0 auto;">
-      <form action="{% url 'searchdata' %}">
-        <label for="query">Search By Title</label>
-        <input type="search" class="form-control" name="query" id="query">
-        <button type="submit" class="btn btn-primary" style="display: block;margin: 1rem auto;">Search</button>
-      </form>
-    </div>
-  </div>
-
-
-  
-  <div class="row">
-    <div class="col-md-6" style="margin: 0 auto;">
       <form action="{% url 'submit' %}">
         <div class="form-group">
           <label for="title">Todo Title</label>
